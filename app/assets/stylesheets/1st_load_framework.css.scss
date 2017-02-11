@@ -18,6 +18,7 @@ img {
 .column {
   @extend .col-md-6;
   @extend .text-xs-center !optional;
+
 }
 .form {
   @extend .col-md-6;
@@ -25,6 +26,7 @@ img {
 .form-centered {
   @extend .col-md-6;
   @extend .text-xs-center !optional;
+
 }
 .submit {
   @extend .btn;
@@ -38,6 +40,7 @@ main {
   @extend .container;
   font-family: "Lucida Console", Monaco, monospace;
   //margin-top: 30px; // accommodate the navbar
+
 }
 
 section {
