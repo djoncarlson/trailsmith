@@ -5,7 +5,7 @@
 // make all images responsive by default
 img {
   @extend .img-fluid;
-  margin: 0 auto;
+  //margin: 0 auto;
 }
 // override for the 'Home' navigation link
 .navbar-brand {
@@ -17,14 +17,14 @@ img {
 // to make views framework-neutral
 .column {
   @extend .col-md-6;
-  @extend .text-xs-center;
+  @extend .text-xs-center !optional;
 }
 .form {
   @extend .col-md-6;
 }
 .form-centered {
   @extend .col-md-6;
-  @extend .text-xs-center;
+  @extend .text-xs-center !optional;
 }
 .submit {
   @extend .btn;
@@ -36,7 +36,8 @@ img {
 // to make views framework-neutral
 main {
   @extend .container;
-  margin-top: 30px; // accommodate the navbar
+  font-family: "Lucida Console", Monaco, monospace;
+  //margin-top: 30px; // accommodate the navbar
 }
 
 section {
